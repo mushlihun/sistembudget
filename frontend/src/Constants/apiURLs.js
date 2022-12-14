@@ -1,0 +1,13 @@
+export const BASE_URL = "http://127.0.0.1:8000";
+export const EMPLOYEES = "/api/v1/employee/";
+export const GENERATE_TOKEN = "/api/token";
+export const GET_MANAGERS = "/api/v1/manager/";
+export const LOGIN = "/api/v1/login/";
+export const APPROVE_BILL = "/api/v1/approve_bill/";
+export const BILLS_TO_BE_APPROVED = "/api/v1/bill_info/";
+export const BILLS = "/api/v1/bill/";
+export const GET_USER_BILL = "/api/v1/bill/:empId/:billId";
+export const NOTIFICATIONS = "/api/v1/notification/";
+export const DELETE_NOTIFICATION = "/api/v1/notification/delete/";
+export const CHECK_EMAIL = "/api/v1/check/email/";
+export const CHECK_MOBILE = "/api/v1/check/mobile/";
